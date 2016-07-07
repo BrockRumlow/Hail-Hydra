@@ -4,24 +4,24 @@
 }
 
 .boxes figure img {
-	max-width: 100%;
 	display: block;
+	max-width: 100%;
 	position: relative;
 }
 
 .boxes figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 20px;
 	background: #2c3f52;
 	color: #ed4e6e;
+	left: 0;
+	padding: 20px;
+	position: absolute;
+	top: 0;
 }
 
 .boxes figcaption h3 {
+	color: #fff;
 	margin: 0;
 	padding: 0;
-	color: #fff;
 }
 
 .boxes figcaption span:before {
@@ -29,12 +29,11 @@
 }
 
 .boxes figcaption a {
-	text-align: center;
-	padding: 5px 10px;
 	border-radius: 2px;
-	display: inline-block;
-	background: #ed4e6e;
 	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
 }
 
 /* Individual Caption Styles */
